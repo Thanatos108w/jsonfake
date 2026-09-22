@@ -12,7 +12,7 @@
     { "id": 1, "nome": "animal l", "especie": "cachorro", "porte": "pequeno", "dataNascimento": "01/01/01", "genero": "macho", "descricao": "sadfadsfads", "castrado": true, "dataCadastro": "11/11/11", "idRaca": 1, "vacinas": [1, 2, 3]},
     { "id": 2, "nome": "animal 2", "especie": "cachorro", "porte": "pequeno", "dataNascimento": "02/02/02", "genero": "macho", "descricao": "sadfadsfads", "castrado": true, "dataCadastro": "11/11/11", "idRaca": 2, "vacinas": [1, 2, 3]},
     { "id": 3, "nome": "animal 3", "especie": "cachorro", "porte": "medio", "dataNascimento": "03/03/03", "genero": "macho", "descricao": "sadfadsfads", "castrado": true, "dataCadastro": "11/11/11",  "idRaca": 3, "vacinas": [1, 2, 3]},
-    { "id": 4, "nome": "animal 4", "especie": "gato", "porte": "grande", "dataNascimento": "04/04/04", "genero": "macho", "descricao": "sadfadsfads", "castrado": true, "dataCadastro": "11/11/11", "idRaca": 4, "vacinas": [4,5},
+    { "id": 4, "nome": "animal 4", "especie": "gato", "porte": "grande", "dataNascimento": "04/04/04", "genero": "macho", "descricao": "sadfadsfads", "castrado": true, "dataCadastro": "11/11/11", "idRaca": 4, "vacinas": [4,5}],
     { "id": 5, "nome": "animal 5", "especie": "gato", "porte": "grande", "dataNascimento": "05/05/05", "genero": "macho", "descricao": "sadfadsfads", "castrado": true, "dataCadastro": "11/11/11", "idRaca": 5, "vacinas": [4,5]}
   ],
 
