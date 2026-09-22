@@ -1,48 +1,41 @@
 
 {
   "usuarios": [
-    { "id": 1, "email": "email1@email.com" , "senha": "1", "cpf": "1111111111", "CEP": "11111-111", "numero": "111", "dataCadastro": "11/11/11", "status": "ativo", "admin": false},
-    { "id": 2, "email": "email2@email.com" , "senha": "1", "cpf": "1111111111", "CEP": "11111-111", "numero": "222", "dataCadastro": "11/11/11", "status": "ativo", "admin": false},
-    { "id": 3, "email": "email3@email.com" , "senha": "1", "cpf": "1111111111", "CEP": "11111-111", "numero": "333", "dataCadastro": "11/11/11", "status": "ativo", "admin": false},
-    { "id": 4, "email": "email4@email.com" , "senha": "1", "cpf": "1111111111", "CEP": "11111-111", "numero": "444", "dataCadastro": "11/11/11", "status": "ativo", "admin": false},
-    { "id": 5, "email": "email5@email.com" , "senha": "1", "cpf": "1111111111", "CEP": "11111-111", "numero": "555", "dataCadastro": "11/11/11", "status": "ativo", "admin": false}
+    { "id": 1, "email": "email1@email.com", "senha": "1", "cpf": "1111111111", "CEP": "11111-111", "numero": "111", "dataCadastro": "11/11/11", "status": "ativo", "admin": false },
+    { "id": 2, "email": "email2@email.com", "senha": "1", "cpf": "1111111111", "CEP": "11111-111", "numero": "222", "dataCadastro": "11/11/11", "status": "ativo", "admin": false },
+    { "id": 3, "email": "email3@email.com", "senha": "1", "cpf": "1111111111", "CEP": "11111-111", "numero": "333", "dataCadastro": "11/11/11", "status": "ativo", "admin": false },
+    { "id": 4, "email": "email4@email.com", "senha": "1", "cpf": "1111111111", "CEP": "11111-111", "numero": "444", "dataCadastro": "11/11/11", "status": "ativo", "admin": false },
+    { "id": 5, "email": "email5@email.com", "senha": "1", "cpf": "1111111111", "CEP": "11111-111", "numero": "555", "dataCadastro": "11/11/11", "status": "ativo", "admin": false }
   ],
-  
   "animaisAdocao": [
-    { "id": 1, "nome": "animal l", "especie": "cachorro", "porte": "pequeno", "dataNascimento": "01/01/01", "genero": "macho", "descricao": "sadfadsfads", "castrado": true, "dataCadastro": "11/11/11", "idRaca": 1, "vacinas": [1, 2, 3]},
-    { "id": 2, "nome": "animal 2", "especie": "cachorro", "porte": "pequeno", "dataNascimento": "02/02/02", "genero": "macho", "descricao": "sadfadsfads", "castrado": true, "dataCadastro": "11/11/11", "idRaca": 2, "vacinas": [1, 2, 3]},
-    { "id": 3, "nome": "animal 3", "especie": "cachorro", "porte": "medio", "dataNascimento": "03/03/03", "genero": "macho", "descricao": "sadfadsfads", "castrado": true, "dataCadastro": "11/11/11",  "idRaca": 3, "vacinas": [1, 2, 3]},
-    { "id": 4, "nome": "animal 4", "especie": "gato", "porte": "grande", "dataNascimento": "04/04/04", "genero": "macho", "descricao": "sadfadsfads", "castrado": true, "dataCadastro": "11/11/11", "idRaca": 4, "vacinas": [4,5]},
-    { "id": 5, "nome": "animal 5", "especie": "gato", "porte": "grande", "dataNascimento": "05/05/05", "genero": "macho", "descricao": "sadfadsfads", "castrado": true, "dataCadastro": "11/11/11", "idRaca": 5, "vacinas": [4,5]}
+    { "id": 1, "nome": "animal l", "especie": "cachorro", "porte": "pequeno", "dataNascimento": "01/01/01", "genero": "macho", "descricao": "sadfadsfads", "castrado": true, "dataCadastro": "11/11/11", "idRaca": 1, "vacinas": [1, 2, 3] },
+    { "id": 2, "nome": "animal 2", "especie": "cachorro", "porte": "pequeno", "dataNascimento": "02/02/02", "genero": "macho", "descricao": "sadfadsfads", "castrado": true, "dataCadastro": "11/11/11", "idRaca": 2, "vacinas": [1, 2, 3] },
+    { "id": 3, "nome": "animal 3", "especie": "cachorro", "porte": "medio", "dataNascimento": "03/03/03", "genero": "macho", "descricao": "sadfadsfads", "castrado": true, "dataCadastro": "11/11/11", "idRaca": 3, "vacinas": [1, 2, 3] },
+    { "id": 4, "nome": "animal 4", "especie": "gato", "porte": "grande", "dataNascimento": "04/04/04", "genero": "macho", "descricao": "sadfadsfads", "castrado": true, "dataCadastro": "11/11/11", "idRaca": 4, "vacinas": [4, 5] },
+    { "id": 5, "nome": "animal 5", "especie": "gato", "porte": "grande", "dataNascimento": "05/05/05", "genero": "macho", "descricao": "sadfadsfads", "castrado": true, "dataCadastro": "11/11/11", "idRaca": 5, "vacinas": [4, 5] }
   ],
-
   "vacina": [
-    { "id": 1, "nome": "vacina 1", "status": "ativo", "especie": "cachorro"},
-    { "id": 2, "nome": "vacina 2", "status": "ativo", "especie": "cachorro"},
-    { "id": 3, "nome": "vacina 3", "status": "ativo", "especie": "cachorro"},
-    { "id": 4, "nome": "vacina 4", "status": "ativo", "especie": "gato"},
-    { "id": 5, "nome": "vacina 5", "status": "ativo", "especie": "gato"}
-  ],  
-
-  "raca": [ 
-    { "id": 1, "nome": "beagle", "especie": "cachorro", "status": "ativo"},
-    { "id": 2, "nome": "pastorAlemao", "especie": "cachorro", "status": "ativo"},
-    { "id": 3, "nome": "dobberman", "especie": "cachorro", "status": "ativo"},
-    { "id": 4, "nome": "siames", "especie": "gato", "status": "ativo"},
-    { "id": 5, "nome": "srd", "especie": "gato", "status": "ativo"}
+    { "id": 1, "nome": "vacina 1", "status": "ativo", "especie": "cachorro" },
+    { "id": 2, "nome": "vacina 2", "status": "ativo", "especie": "cachorro" },
+    { "id": 3, "nome": "vacina 3", "status": "ativo", "especie": "cachorro" },
+    { "id": 4, "nome": "vacina 4", "status": "ativo", "especie": "gato" },
+    { "id": 5, "nome": "vacina 5", "status": "ativo", "especie": "gato" }
   ],
-
+  "raca": [
+    { "id": 1, "nome": "beagle", "especie": "cachorro", "status": "ativo" },
+    { "id": 2, "nome": "pastorAlemao", "especie": "cachorro", "status": "ativo" },
+    { "id": 3, "nome": "dobberman", "especie": "cachorro", "status": "ativo" },
+    { "id": 4, "nome": "siames", "especie": "gato", "status": "ativo" },
+    { "id": 5, "nome": "srd", "especie": "gato", "status": "ativo" }
+  ],
   "solicitacaoAdocao": [
-    { "id": 1, "tipoMoradia": "casa", "outrosAnimais": "um cachorro" , "tempoCasa": "10h/dia", "expPrevia": true, "descricao": "aiosdjfoaidsj", "status": "ativo"},  
-    { "id": 2, "tipoMoradia": "casa", "outrosAnimais": "um gato" , "tempoCasa": "05h/dia", "expPrevia": true, "descricao": "aiosdjfoaidsj", "status": "ativo"},
-    { "id": 3, "tipoMoradia": "apartamento", "outrosAnimais": "dois cachorros" , "tempoCasa": "12h/dia", "expPrevia": true, "descricao": "aiosdjfoaidsj", "status": "ativo"},
-    { "id": 4, "tipoMoradia": "apartamento", "outrosAnimais": "dois gatos" , "tempoCasa": "06h/dia", "expPrevia": true, "descricao": "aiosdjfoaidsj", "status": "ativo"},
-    { "id": 5, "tipoMoradia": "sitio", "outrosAnimais": "um cachorro e um gato" , "tempoCasa": "01h/dia", "expPrevia": true, "descricao": "aiosdjfoaidsj", "status": "ativo"}
+    { "id": 1, "tipoMoradia": "casa", "outrosAnimais": "um cachorro", "tempoCasa": "10h/dia", "expPrevia": true, "descricao": "aiosdjfoaidsj", "status": "ativo" },
+    { "id": 2, "tipoMoradia": "casa", "outrosAnimais": "um gato", "tempoCasa": "05h/dia", "expPrevia": true, "descricao": "aiosdjfoaidsj", "status": "ativo" },
+    { "id": 3, "tipoMoradia": "apartamento", "outrosAnimais": "dois cachorros", "tempoCasa": "12h/dia", "expPrevia": true, "descricao": "aiosdjfoaidsj", "status": "ativo" },
+    { "id": 4, "tipoMoradia": "apartamento", "outrosAnimais": "dois gatos", "tempoCasa": "06h/dia", "expPrevia": true, "descricao": "aiosdjfoaidsj", "status": "ativo" },
+    { "id": 5, "tipoMoradia": "sitio", "outrosAnimais": "um cachorro e um gato", "tempoCasa": "01h/dia", "expPrevia": true, "descricao": "aiosdjfoaidsj", "status": "ativo" }
   ]
 }
-
-
-  
     
 
 
