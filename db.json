@@ -25,11 +25,11 @@
   ],  
 
   "raca": [ 
-    { "id": 1, "nome": "beagle", "especie": "cachorro", "status": ativo"},
-    { "id": 2, "nome": "pastorAlemao", "especie": "cachorro", "status": ativo"},
-    { "id": 3, "nome": "dobberman", "especie": "cachorro", "status": ativo"},
-    { "id": 4, "nome": "siames", "especie": "gato", "status": ativo"},
-    { "id": 5, "nome": "srd", "especie": "gato", "status": ativo"},
+    { "id": 1, "nome": "beagle", "especie": "cachorro", "status": "ativo"},
+    { "id": 2, "nome": "pastorAlemao", "especie": "cachorro", "status": "ativo"},
+    { "id": 3, "nome": "dobberman", "especie": "cachorro", "status": "ativo"},
+    { "id": 4, "nome": "siames", "especie": "gato", "status": "ativo"},
+    { "id": 5, "nome": "srd", "especie": "gato", "status": "ativo"},
   ],
 
   "solicitacaoAdocao": [
