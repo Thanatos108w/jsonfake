@@ -1,4 +1,3 @@
-
 {
   "usuarios": [
     { "id": 1, "email": "email1@email.com", "senha": "1", "cpf": "1111111111", "CEP": "11111-111", "numero": "111", "dataCadastro": "11/11/11", "status": "ativo", "admin": false },
@@ -8,7 +7,7 @@
     { "id": 5, "email": "email5@email.com", "senha": "1", "cpf": "1111111111", "CEP": "11111-111", "numero": "555", "dataCadastro": "11/11/11", "status": "ativo", "admin": false }
   ],
   "animaisAdocao": [
-    { "id": 1, "nome": "animal l", "especie": "cachorro", "porte": "pequeno", "dataNascimento": "01/01/01", "genero": "macho", "descricao": "sadfadsfads", "castrado": true, "dataCadastro": "11/11/11", "idRaca": 1, "vacinas": [1, 2, 3] },
+    { "id": 1, "nome": "animal 1", "especie": "cachorro", "porte": "pequeno", "dataNascimento": "01/01/01", "genero": "macho", "descricao": "sadfadsfads", "castrado": true, "dataCadastro": "11/11/11", "idRaca": 1, "vacinas": [1, 2, 3] },
     { "id": 2, "nome": "animal 2", "especie": "cachorro", "porte": "pequeno", "dataNascimento": "02/02/02", "genero": "macho", "descricao": "sadfadsfads", "castrado": true, "dataCadastro": "11/11/11", "idRaca": 2, "vacinas": [1, 2, 3] },
     { "id": 3, "nome": "animal 3", "especie": "cachorro", "porte": "medio", "dataNascimento": "03/03/03", "genero": "macho", "descricao": "sadfadsfads", "castrado": true, "dataCadastro": "11/11/11", "idRaca": 3, "vacinas": [1, 2, 3] },
     { "id": 4, "nome": "animal 4", "especie": "gato", "porte": "grande", "dataNascimento": "04/04/04", "genero": "macho", "descricao": "sadfadsfads", "castrado": true, "dataCadastro": "11/11/11", "idRaca": 4, "vacinas": [4, 5] },
@@ -34,11 +33,169 @@
     { "id": 3, "tipoMoradia": "apartamento", "outrosAnimais": "dois cachorros", "tempoCasa": "12h/dia", "expPrevia": true, "descricao": "aiosdjfoaidsj", "status": "ativo" },
     { "id": 4, "tipoMoradia": "apartamento", "outrosAnimais": "dois gatos", "tempoCasa": "06h/dia", "expPrevia": true, "descricao": "aiosdjfoaidsj", "status": "ativo" },
     { "id": 5, "tipoMoradia": "sitio", "outrosAnimais": "um cachorro e um gato", "tempoCasa": "01h/dia", "expPrevia": true, "descricao": "aiosdjfoaidsj", "status": "ativo" }
+  ],
+  "especie": [
+    { "id": 1, "nome": "cachorro" },
+    { "id": 2, "nome": "gato" },
+    { "id": 3, "nome": "coelho" },
+    { "id": 4, "nome": "ave" },
+    { "id": 5, "nome": "roedor" }
+  ],
+  "admins": [
+    { "id": 1, "nome": "admin 1", "email": "admin1@email.com", "senha": "1" },
+    { "id": 2, "nome": "admin 2", "email": "admin2@email.com", "senha": "1" },
+    { "id": 3, "nome": "admin 3", "email": "admin3@email.com", "senha": "1" },
+    { "id": 4, "nome": "admin 4", "email": "admin4@email.com", "senha": "1" },
+    { "id": 5, "nome": "admin 5", "email": "admin5@email.com", "senha": "1" }
+  ],
+  "ongs": [
+    { "id": 1, "nome": "ong 1", "email": "ong1@email.com", "senha": "1", "missao": "sadfadsfads", "dataCadastro": "11/11/11", "localizacao": "cidade 1", "cnpj": "11111111000111", "enderecoEntrega": "rua 1, 111", "endereco": "rua 1, 111", "contato": "11911111111", "idFotoLogo": 1, "status": "aprovada" },
+    { "id": 2, "nome": "ong 2", "email": "ong2@email.com", "senha": "1", "missao": "sadfadsfads", "dataCadastro": "11/11/11", "localizacao": "cidade 2", "cnpj": "22222222000122", "enderecoEntrega": "rua 2, 222", "endereco": "rua 2, 222", "contato": "11922222222", "idFotoLogo": 2, "status": "aprovada" },
+    { "id": 3, "nome": "ong 3", "email": "ong3@email.com", "senha": "1", "missao": "sadfadsfads", "dataCadastro": "11/11/11", "localizacao": "cidade 3", "cnpj": "33333333000133", "enderecoEntrega": "rua 3, 333", "endereco": "rua 3, 333", "contato": "11933333333", "idFotoLogo": 3, "status": "aprovada" },
+    { "id": 4, "nome": "ong 4", "email": "ong4@email.com", "senha": "1", "missao": "sadfadsfads", "dataCadastro": "11/11/11", "localizacao": "cidade 4", "cnpj": "44444444000144", "enderecoEntrega": "rua 4, 444", "endereco": "rua 4, 444", "contato": "11944444444", "idFotoLogo": 4, "status": "pendente" },
+    { "id": 5, "nome": "ong 5", "email": "ong5@email.com", "senha": "1", "missao": "sadfadsfads", "dataCadastro": "11/11/11", "localizacao": "cidade 5", "cnpj": "55555555000155", "enderecoEntrega": "rua 5, 555", "endereco": "rua 5, 555", "contato": "11955555555", "idFotoLogo": 5, "status": "pendente" }
+  ],
+  "planoSocio": [
+    { "id": 1, "nome": "apoiador", "valorMensal": 10, "beneficios": "sadfadsfads" },
+    { "id": 2, "nome": "guardiao", "valorMensal": 30, "beneficios": "sadfadsfads" },
+    { "id": 3, "nome": "protetor", "valorMensal": 50, "beneficios": "sadfadsfads" },
+    { "id": 4, "nome": "protetor plus", "valorMensal": 80, "beneficios": "sadfadsfads" },
+    { "id": 5, "nome": "fundador", "valorMensal": 100, "beneficios": "sadfadsfads" }
+  ],
+  "perfilSocio": [
+    { "id": 1, "idUsuario": 1, "idPlano": 1, "historico": "sadfadsfads", "status": "ativo", "dataInicio": "11/11/11", "formaPagamento": "cartaoCredito" },
+    { "id": 2, "idUsuario": 2, "idPlano": 2, "historico": "sadfadsfads", "status": "ativo", "dataInicio": "11/11/11", "formaPagamento": "cartaoCredito" },
+    { "id": 3, "idUsuario": 3, "idPlano": 3, "historico": "sadfadsfads", "status": "ativo", "dataInicio": "11/11/11", "formaPagamento": "cartaoCredito" },
+    { "id": 4, "idUsuario": 4, "idPlano": 1, "historico": "sadfadsfads", "status": "cancelado", "dataInicio": "11/11/11", "formaPagamento": "cartaoCredito" },
+    { "id": 5, "idUsuario": 5, "idPlano": 4, "historico": "sadfadsfads", "status": "ativo", "dataInicio": "11/11/11", "formaPagamento": "cartaoCredito" }
+  ],
+  "tipoServico": [
+    { "id": 1, "nome": "banhoETosa" },
+    { "id": 2, "nome": "veterinario" },
+    { "id": 3, "nome": "adestramento" },
+    { "id": 4, "nome": "petSitter" },
+    { "id": 5, "nome": "transporte" }
+  ],
+  "certificacao": [
+    { "id": 1, "nome": "crmv" },
+    { "id": 2, "nome": "cursoAdestramento" },
+    { "id": 3, "nome": "cursoEstetica" },
+    { "id": 4, "nome": "primeirosSocorrosPet" },
+    { "id": 5, "nome": "cursoComportamentoAnimal" }
+  ],
+  "prestadores": [
+    { "id": 1, "idUsuario": 1, "areaAtendimento": "cidade 1", "descricao": "sadfadsfads", "contato": "11911111111", "curriculo": "sadfadsfads", "referencias": "sadfadsfads", "desconto": true, "percentualDesconto": 10, "status": "aprovado", "avaliacaoMedia": 4.5, "tiposServico": [1], "especiesAtendidas": [1, 2], "certificacoes": [1] },
+    { "id": 2, "idUsuario": 2, "areaAtendimento": "cidade 2", "descricao": "sadfadsfads", "contato": "11922222222", "curriculo": "sadfadsfads", "referencias": "sadfadsfads", "desconto": true, "percentualDesconto": 15, "status": "aprovado", "avaliacaoMedia": 4.8, "tiposServico": [2], "especiesAtendidas": [1, 2, 3], "certificacoes": [1, 4] },
+    { "id": 3, "idUsuario": 3, "areaAtendimento": "cidade 3", "descricao": "sadfadsfads", "contato": "11933333333", "curriculo": "sadfadsfads", "referencias": "sadfadsfads", "desconto": false, "percentualDesconto": 0, "status": "aprovado", "avaliacaoMedia": 4.2, "tiposServico": [3], "especiesAtendidas": [1], "certificacoes": [2, 5] },
+    { "id": 4, "idUsuario": 4, "areaAtendimento": "cidade 4", "descricao": "sadfadsfads", "contato": "11944444444", "curriculo": "sadfadsfads", "referencias": "sadfadsfads", "desconto": true, "percentualDesconto": 20, "status": "pendente", "avaliacaoMedia": 0, "tiposServico": [4], "especiesAtendidas": [1, 2], "certificacoes": [] },
+    { "id": 5, "idUsuario": 5, "areaAtendimento": "cidade 5", "descricao": "sadfadsfads", "contato": "11955555555", "curriculo": "sadfadsfads", "referencias": "sadfadsfads", "desconto": false, "percentualDesconto": 0, "status": "pendente", "avaliacaoMedia": 0, "tiposServico": [5], "especiesAtendidas": [1, 2, 3, 4, 5], "certificacoes": [3] }
+  ],
+  "larTemporario": [
+    { "id": 1, "idUsuario": 1, "periodoInicio": "11/11/11", "periodoFim": "11/12/11", "capacidadeAnimais": 1 },
+    { "id": 2, "idUsuario": 2, "periodoInicio": "11/11/11", "periodoFim": "11/12/11", "capacidadeAnimais": 2 },
+    { "id": 3, "idUsuario": 3, "periodoInicio": "11/11/11", "periodoFim": "11/12/11", "capacidadeAnimais": 1 },
+    { "id": 4, "idUsuario": 4, "periodoInicio": "11/11/11", "periodoFim": "11/12/11", "capacidadeAnimais": 3 },
+    { "id": 5, "idUsuario": 5, "periodoInicio": "11/11/11", "periodoFim": "11/12/11", "capacidadeAnimais": 1 }
+  ],
+  "atendimentoPrestador": [
+    { "id": 1, "idUsuario": 2, "idPrestador": 1, "data": "11/11/11", "status": "realizado" },
+    { "id": 2, "idUsuario": 3, "idPrestador": 1, "data": "12/11/11", "status": "realizado" },
+    { "id": 3, "idUsuario": 1, "idPrestador": 2, "data": "13/11/11", "status": "realizado" },
+    { "id": 4, "idUsuario": 4, "idPrestador": 3, "data": "14/11/11", "status": "cancelado" },
+    { "id": 5, "idUsuario": 5, "idPrestador": 2, "data": "15/11/11", "status": "realizado" }
+  ],
+  "avaliacao": [
+    { "id": 1, "idAtendimento": 1, "nota": 5, "comentario": "sadfadsfads", "data": "11/11/11" },
+    { "id": 2, "idAtendimento": 2, "nota": 4, "comentario": "sadfadsfads", "data": "12/11/11" },
+    { "id": 3, "idAtendimento": 3, "nota": 5, "comentario": "sadfadsfads", "data": "13/11/11" },
+    { "id": 4, "idAtendimento": 5, "nota": 4, "comentario": "sadfadsfads", "data": "15/11/11" },
+    { "id": 5, "idAtendimento": 1, "nota": 3, "comentario": "sadfadsfads", "data": "16/11/11" }
+  ],
+  "campanha": [
+    { "id": 1, "idOng": 1, "nome": "campanha 1", "contexto": "sadfadsfads", "dataInicio": "11/11/11" },
+    { "id": 2, "idOng": 2, "nome": "campanha 2", "contexto": "sadfadsfads", "dataInicio": "11/11/11" },
+    { "id": 3, "idOng": 3, "nome": "campanha 3", "contexto": "sadfadsfads", "dataInicio": "11/11/11" },
+    { "id": 4, "idOng": 1, "nome": "campanha 4", "contexto": "sadfadsfads", "dataInicio": "11/11/11" },
+    { "id": 5, "idOng": 4, "nome": "campanha 5", "contexto": "sadfadsfads", "dataInicio": "11/11/11" }
+  ],
+  "itemDoacao": [
+    { "id": 1, "nome": "racao" },
+    { "id": 2, "nome": "cobertor" },
+    { "id": 3, "nome": "coleira" },
+    { "id": 4, "nome": "brinquedo" },
+    { "id": 5, "nome": "medicamento" }
+  ],
+  "doacao": [
+    { "id": 1, "idUsuario": 1, "idOng": 1, "idCampanha": null, "data": "11/11/11", "status": "processada" },
+    { "id": 2, "idUsuario": 2, "idOng": null, "idCampanha": null, "data": "11/11/11", "status": "processada" },
+    { "id": 3, "idUsuario": 3, "idOng": 2, "idCampanha": 2, "data": "11/11/11", "status": "pendente" },
+    { "id": 4, "idUsuario": 4, "idOng": 3, "idCampanha": null, "data": "11/11/11", "status": "processada" },
+    { "id": 5, "idUsuario": 5, "idOng": 1, "idCampanha": 1, "data": "11/11/11", "status": "processada" }
+  ],
+  "doacaoMonetaria": [
+    { "id": 1, "idDoacao": 1, "valor": 50, "formaPagamento": "pix" },
+    { "id": 2, "idDoacao": 2, "valor": 20, "formaPagamento": "cartao" },
+    { "id": 3, "idDoacao": 3, "valor": 100, "formaPagamento": "boleto" },
+    { "id": 4, "idDoacao": 3, "valor": 100, "formaPagamento": "boleto" },
+    { "id": 5, "idDoacao": 2, "valor": 20, "formaPagamento": "cartao" }
+  ],
+  "doacaoBens": [
+    { "id": 1, "idDoacao": 4, "itens": [1, 2] },
+    { "id": 2, "idDoacao": 5, "itens": [3, 4, 5] },
+    { "id": 3, "idDoacao": 4, "itens": [1, 2] },
+    { "id": 4, "idDoacao": 5, "itens": [3, 4, 5] },
+    { "id": 5, "idDoacao": 4, "itens": [1, 2] }
+  ],
+  "sinalIdentificacao": [
+    { "id": 1, "nome": "coleira" },
+    { "id": 2, "nome": "plaquinha" },
+    { "id": 3, "nome": "microchip" },
+    { "id": 4, "nome": "castrado" },
+    { "id": 5, "nome": "nenhum" }
+  ],
+  "ocorrenciasAchadosPerdidos": [
+    { "id": 1, "idUsuario": 1, "idOng": null, "idEspecie": 1, "idRaca": 1, "nome": "ocorrencia 1", "tipo": "perdido", "porte": "pequeno", "localAproximado": "bairro 1", "data": "11/11/11", "situacao": null, "descricao": "sadfadsfads", "ferido": false, "status": "ativo", "sinais": [1, 2] },
+    { "id": 2, "idUsuario": 2, "idOng": null, "idEspecie": 2, "idRaca": 4, "nome": "ocorrencia 2", "tipo": "perdido", "porte": "medio", "localAproximado": "bairro 2", "data": "11/11/11", "situacao": null, "descricao": "sadfadsfads", "ferido": false, "status": "ativo", "sinais": [3] },
+    { "id": 3, "idUsuario": 3, "idOng": null, "idEspecie": 1, "idRaca": 2, "nome": "ocorrencia 3", "tipo": "achado", "porte": "pequeno", "localAproximado": "bairro 3", "data": "11/11/11", "situacao": "comQuemAchou", "descricao": "sadfadsfads", "ferido": true, "status": "ativo", "sinais": [1] },
+    { "id": 4, "idUsuario": null, "idOng": 1, "idEspecie": 2, "idRaca": 5, "nome": "ocorrencia 4", "tipo": "achado", "porte": "grande", "localAproximado": "bairro 4", "data": "11/11/11", "situacao": "abrigoTemporario", "descricao": "sadfadsfads", "ferido": false, "status": "resolvido", "sinais": [4] },
+    { "id": 5, "idUsuario": 5, "idOng": null, "idEspecie": 1, "idRaca": 3, "nome": "ocorrencia 5", "tipo": "perdido", "porte": "medio", "localAproximado": "bairro 5", "data": "11/11/11", "situacao": null, "descricao": "sadfadsfads", "ferido": false, "status": "resolvido", "sinais": [5] }
+  ],
+  "foto": [
+    { "id": 1, "tipoReferencia": "animal", "idReferencia": 1, "url": "foto1.jpg", "ordem": 1 },
+    { "id": 2, "tipoReferencia": "animal", "idReferencia": 1, "url": "foto2.jpg", "ordem": 2 },
+    { "id": 3, "tipoReferencia": "ocorrencia", "idReferencia": 1, "url": "foto3.jpg", "ordem": 1 },
+    { "id": 4, "tipoReferencia": "ong", "idReferencia": 1, "url": "logo1.jpg", "ordem": 1 },
+    { "id": 5, "tipoReferencia": "animal", "idReferencia": 2, "url": "foto4.jpg", "ordem": 1 }
+  ],
+  "solicitacaoCatalogo": [
+    { "id": 1, "idUsuario": 1, "tipoCatalogo": "raca", "itemSugerido": "vira-lata caramelo", "status": "pendente" },
+    { "id": 2, "idUsuario": 2, "tipoCatalogo": "tipoServico", "itemSugerido": "hidratacao", "status": "pendente" },
+    { "id": 3, "idUsuario": 3, "tipoCatalogo": "vacina", "itemSugerido": "vacina giardia", "status": "aprovada" },
+    { "id": 4, "idUsuario": 4, "tipoCatalogo": "itemDoacao", "itemSugerido": "areia higienica", "status": "recusada" },
+    { "id": 5, "idUsuario": 5, "tipoCatalogo": "certificacao", "itemSugerido": "curso de fisioterapia pet", "status": "pendente" }
+  ],
+  "chat": [
+    { "id": 1, "contexto": "adocao", "idReferencia": 1, "dataCriacao": "11/11/11" },
+    { "id": 2, "contexto": "adocao", "idReferencia": 2, "dataCriacao": "11/11/11" },
+    { "id": 3, "contexto": "perdidoAchado", "idReferencia": 1, "dataCriacao": "11/11/11" },
+    { "id": 4, "contexto": "perdidoAchado", "idReferencia": 3, "dataCriacao": "11/11/11" },
+    { "id": 5, "contexto": "adocao", "idReferencia": 3, "dataCriacao": "11/11/11" }
+  ],
+  "mensagem": [
+    { "id": 1, "idChat": 1, "idUsuario": 1, "conteudo": "sadfadsfads", "dataHora": "11/11/11 11:11" },
+    { "id": 2, "idChat": 1, "idUsuario": 2, "conteudo": "sadfadsfads", "dataHora": "11/11/11 11:15" },
+    { "id": 3, "idChat": 2, "idUsuario": 3, "conteudo": "sadfadsfads", "dataHora": "11/11/11 12:00" },
+    { "id": 4, "idChat": 3, "idUsuario": 4, "conteudo": "sadfadsfads", "dataHora": "11/11/11 13:00" },
+    { "id": 5, "idChat": 4, "idUsuario": 5, "conteudo": "sadfadsfads", "dataHora": "11/11/11 14:00" }
+  ],
+  "notificacao": [
+    { "id": 1, "idUsuario": 1, "tipo": "novaSolicitacaoAdocao", "mensagem": "sadfadsfads", "canal": "inApp", "dataHora": "11/11/11 11:11", "tipoReferencia": "solicitacaoAdocao", "idReferencia": 1 },
+    { "id": 2, "idUsuario": 2, "tipo": "novaMensagemChatAdocao", "mensagem": "sadfadsfads", "canal": "inApp", "dataHora": "11/11/11 12:00", "tipoReferencia": "solicitacaoAdocao", "idReferencia": 2 },
+    { "id": 3, "idUsuario": 3, "tipo": "ocorrenciaAchadoPerdido", "mensagem": "sadfadsfads", "canal": "email", "dataHora": "11/11/11 13:00", "tipoReferencia": "ocorrencia", "idReferencia": 3 },
+    { "id": 4, "idUsuario": 4, "tipo": "itemCatalogoAprovado", "mensagem": "sadfadsfads", "canal": "ambos", "dataHora": "11/11/11 14:00", "tipoReferencia": "solicitacaoCatalogo", "idReferencia": 3 },
+    { "id": 5, "idUsuario": 5, "tipo": "selecionadoComoAdotante", "mensagem": "sadfadsfads", "canal": "email", "dataHora": "11/11/11 15:00", "tipoReferencia": "solicitacaoAdocao", "idReferencia": 3 }
   ]
 }
-    
-
-
 
 
 
